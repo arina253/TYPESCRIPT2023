@@ -1,0 +1,17 @@
+
+//Steps for installation
+1)npm init -y : make a default package.json---All the libraries are listed in package.json
+npm-----node packet manager
+2) npm install typescript --save-dev-------read package.json and bring all the library to node modules
+3) npx tsc --init --rootDir src --outDir build--------make a configuration file
+--"rootDir": "src" ------  Specify the root folder within your source files. 
+--"outDir": "build"-----Specify an output folder for all emitted files. 
+4)Create a folder with folder name src and a file inside it as script.tsc
+5)npx tsc --watch-------a folder named build is made with js extension
+
+//To see output in console
+1) Save the code in typescript file, eg: Day5.ts
+2)npx tsc --watch
+3)a folder named build is made with js extension,eg: Day5.js
+4) cd build
+5) node Day5.js
