@@ -5,10 +5,10 @@ function addition(x, y) {
 }
 let q1 = addition(2, 4);
 //Program 2
-function additionB(x, y) {
+function additionB1(x, y) {
     return x + y;
 }
-let q2 = additionB(2, 6);
+let q2 = additionB1(2, 6);
 //Program 3
 function additionC(x, y) {
     x + y;
@@ -22,8 +22,8 @@ function additionD(x, y, avail, message) {
     additionD(12, 23, true, "The addition of two numbers");
 }
 //Program 6
-let numbers = [11, 22, 33, 44, 55];
-let names = ["arina", "roshini", "jyoti"];
+let numbers1 = [11, 22, 33, 44, 55];
+let names1 = ["arina", "roshini", "jyoti"];
 let info1 = ["arina", 12, 24];
 let info2 = ["arina", 35, true];
 //Program 7

@@ -5,10 +5,10 @@ function addition(x:number, y:number){
 let q1 = addition(2,4)
 
 //Program 2
-function additionB(x:number, y:number):number{
+function additionB1(x:number, y:number):number{
     return x+y
 }
-let q2 = additionB(2,6)
+let q2 = additionB1(2,6)
 
 //Program 3
 function additionC (x: number, y:number):void{
@@ -26,8 +26,8 @@ function additionD(x: number, y:number, avail:boolean, message:string){
 }
 
 //Program 6
-let numbers : number [] = [11,22,33,44,55]
-let names : string [] = ["arina","roshini","jyoti"]
+let numbers1 : number [] = [11,22,33,44,55]
+let names1 : string [] = ["arina","roshini","jyoti"]
 let info1 : [string, number, number] = ["arina", 12,24]
 let info2 : [string,number,boolean] = ["arina",35,true]
 

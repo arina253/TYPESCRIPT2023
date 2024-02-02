@@ -58,13 +58,13 @@ console.log(statusCode.NotFound)
 
 //Program 4
 
-type Person = {
+type PersonJ = {
     firstName : string
     lastName : string
     rollNo : number
 }
 
-let arina : Person = {
+let arina : PersonJ= {
     firstName : "jyoti",
     lastName : "pradhan",
     rollNo : 23

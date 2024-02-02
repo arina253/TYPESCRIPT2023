@@ -25,20 +25,20 @@ displayDataThree(true)
 
 let info5 : (string|number)[] = ["arina","joshi",30]
 //intersection
-type Person = {
+type PersonZ = {
     namee : string;
     age : number
 }
 
-type Employee{
+type Employee = {
     employeeId : string,
     position:string
 }
  
-type EmployeePerson = Person & Employee
+type EmployeePerson = PersonZ & Employee
 let info6 : EmployeePerson = {
     namee : "arina",
     age : 30,
-    employeeId : "34"
+    employeeId : "34",
     position :"engineer"
 }

@@ -17,7 +17,7 @@ let namee : string[] = ["arina", "jyoti"];
 let nameee : number[] = [1,2];
 
 //Program 5
-let info : {firstName : string, lastName: string} = {
+let infos : {firstName : string, lastName: string} = {
     firstName : "Arina",
     lastName : "Joshi",
 }

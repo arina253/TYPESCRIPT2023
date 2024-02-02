@@ -14,7 +14,7 @@ console.log(canDrive);
 let namee = ["arina", "jyoti"];
 let nameee = [1, 2];
 //Program 5
-let info = {
+let infos = {
     firstName: "Arina",
     lastName: "Joshi",
 };

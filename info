@@ -1,4 +1,7 @@
 
+//Typescript------to see compile time issues
+Browser will understand low level language, javascript only.
+
 //Steps for installation
 1)npm init -y : make a default package.json---All the libraries are listed in package.json
 npm-----node packet manager
